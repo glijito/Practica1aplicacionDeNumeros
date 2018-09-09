@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if(isFibonnaci(Integer.parseInt(dato.getText().toString())))
                 resultado.setText("El numero esta en la serie fibonacci");
             else
-                resultado.setText("El numero esta en la serie fibonacci");
+                resultado.setText("El numero no esta en la serie fibonacci");
         }
 
         if(v.getId()==findViewById(R.id.btnmaravilloso).getId()) {
